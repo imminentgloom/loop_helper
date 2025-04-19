@@ -17,7 +17,7 @@ function set_values()
       output[1].volts = (math.random() * 10 - 5) * scale -- W/del 1 that
       output[2].volts = (math.random() * 10 - 5) * scale -- W/del 2 that
       output[3].volts = 0                                -- Cold Mac fade
-      output[4].volts = 5                                -- Submix VCA
+      output[4].volts = 5.5                              -- Submix VCA (Mix 3)
    end
 
    -- rng 1, left, on
